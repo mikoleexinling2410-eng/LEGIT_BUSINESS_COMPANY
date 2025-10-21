@@ -8,7 +8,6 @@ st.write(
 # --- Create buttons ---
 col1, col2, col3 = st.columns(3)
 
-st.session_state.page = "loan"
 with col1:
     if st.button("Loan"):
         st.session_state.page = "loan"
